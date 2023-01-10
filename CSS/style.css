@@ -1,0 +1,69 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+nav {
+  background-color: #5252b0;
+}
+
+.row-1 {
+  background-color: #5252b0;
+}
+
+.text-wellcome {
+  margin-top: 7rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile {
+  padding-top: 5rem;
+  background-image: url(../img/Background.jpg);
+  background-attachment: fixed;
+}
+
+#projects {
+  padding-top: 5rem;
+  background-color: #9797f0;
+}
+
+.card {
+  border: none;
+  background-color: #63639d;
+  border-radius: 20px;
+}
+
+.card-img-top {
+  border-top-left-radius: 19px;
+  border-top-right-radius: 19px;
+}
+
+.card:hover {
+  transform: translateY(-15px);
+  transition: transform 0.3s;
+}
+
+#about {
+  padding-top: 5rem;
+  background-color: #5252b0;
+}
+
+#skills {
+  padding-top: 5rem;
+}
+
+#contact {
+  padding-top: 5rem;
+}
+
+.footer {
+  background-color: #5252b0;
+}
